@@ -1,0 +1,18 @@
+{
+  "name": "dane-info",
+  "version": "1.0.0",
+  "description": "API endpoints for returning dynamic data to spruce up Markdown docs with some of my personal identity flavaaaa.",
+  "author": "Branden Dane <DaneTheory@gmail.com> (https://DaneTheory.com)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV='development' vercel dev",
+    "deploy": "NODE_ENV='production' vercel deploy --prod"
+  },
+  "dependencies": {
+    "genius-lyrics": "^4.1.4"
+  },
+  "devDependencies": {
+    "vercel": "^21.0.1"
+  }
+}
